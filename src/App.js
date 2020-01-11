@@ -68,8 +68,8 @@ function App() {
   };
   if (view === 1) {
     return (
-      <div className="container text-center m-3">
-        <button className="btn btn-primary" onClick={getarray}>
+      <div className="container text-center ">
+        <button className="btn btn-primary m-3" onClick={getarray}>
           GetArray
         </button>
       </div>
